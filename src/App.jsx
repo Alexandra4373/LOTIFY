@@ -10,12 +10,12 @@ function App() {
         <div className="">
           <h3>Your logo</h3>
         </div>
-        <div className="">
+        <div className="flex gap-10">
           <div className="">
             <h2>Sign in to</h2>
             <h4>Lorem Ipsum is simply</h4>
           </div>
-          <div className="">
+          <div className="flex-1">
             <h5>Sign in</h5>
             <div className="">
               <label>
@@ -36,26 +36,25 @@ function App() {
           </div>
         </div>
 
-        <div className="">
-          <p>
-            If you don't have an account <br />
-            You can <span>Register here!</span>
-          </p>
-        </div>
-
-        <div className="">
-          <img src={Saly} />
-        </div>
-
-        <div className="">
-          <button type="button">Login</button>
-          <div className="">
-            <p>or continue with</p>
-
+        <div className="flex gap-10">
+          <div className="flex-1">
+            <p>
+              If you don't have an account <br />
+              You can <span>Register here!</span>
+            </p>
+          </div>
+          <div className="flex-1">
+            <img src={Saly} />
+          </div>
+          <div className="flex-1">
+            <button type="button">Login</button>
             <div className="">
-              <img src={Facebook} />
-              <img src={Apple} />
-              <img src={Google} />
+              <p>or continue with</p>
+              <div className="flex ">
+                <img src={Facebook} />
+                <img src={Apple} />
+                <img src={Google} />
+              </div>
             </div>
           </div>
         </div>
